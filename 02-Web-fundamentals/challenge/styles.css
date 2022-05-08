@@ -1,5 +1,5 @@
 * {
-  margin: 5px;
+  margin: 0px;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
@@ -71,9 +71,11 @@ main {
 main img {
   height: 500px;
 }
-
-a {
-  text-align: center;
+main .button {
+  background-color: #050557;
+  color: white;
+  margin-bottom: 40px;
+  position: relative;
 }
 
 h1 {
@@ -97,7 +99,7 @@ h3 {
 }
 
 h4 {
-  font-size: 25px;
+  font-size: 30px;
   color: #050557;
 }
 
