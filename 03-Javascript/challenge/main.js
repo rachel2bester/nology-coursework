@@ -27,6 +27,15 @@ function getLastName(names) {
     return lastName;
 }
 
+function allNumbersPositive(numbers) {
+    for (i = 0; i < numbers.length; i++) {
+        if (!isNumberPositive(numbers[i])) {
+            return false;
+        }
+    }
+    return true;
+}
+
 console.log(isNumberPositive(-1));
 console.log(isNumberPositive(5));
 
@@ -39,3 +48,6 @@ console.log(getLargestNumber(6, 8, 3));
 
 console.log(getLastName(["Charlie", "Rob", "Andy"]));
 console.log(getLastName(["Ash","Stu"]));
+
+console.log(allNumbersPositive([2,4,5]));
+console.log(allNumbersPositive([-5,4,6]));
